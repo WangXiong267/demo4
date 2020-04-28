@@ -30,6 +30,8 @@ public class LoginController {
         TUser user=loginService.finduser(uname,password);
         if(user==null){
             System.out.println("user是空的");
+            System.out.println("这是我的第二次提交");
+            System.out.println("这是我的第二次提交");
             return "login";
         }
         System.out.println("user不是空的");
