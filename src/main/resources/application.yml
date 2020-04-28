@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/qf-v6?serverTimezone=GMT
+    username: root
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
+  mybatis-plus:
+    mappper-locations: classpath:dao/*.xml
+server:
+  port: 9999
